@@ -39,6 +39,9 @@
      <Compile Include="Assets\Scripts\Animal.cs" />
      <Compile Include="Assets\Scripts\brah.cs" />
      <Compile Include="Assets\Scripts\FriendlyAnimal.cs" />
+     <Compile Include="Assets\Scripts\HostileAnimal.cs" />
+     <Compile Include="Assets\Scripts\HostileAnimalInterface.cs" />
+     <Compile Include="Assets\Scripts\Lion.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\chris\Desktop\Unity\2021.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
