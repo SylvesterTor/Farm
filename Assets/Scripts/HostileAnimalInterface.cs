@@ -1,4 +1,5 @@
 public interface HostileAnimalInterface{
-	public void Fight(Animal opponent);
+	public void attack(FriendlyAnimal opponent);
+	public void attack(HostileAnimal opponent);
 	public bool Scare();
 }
