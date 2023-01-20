@@ -5,6 +5,5 @@ public abstract class Animal : MonoBehaviour{
 	
 	public void playAnimalSound(string sound){
 		print(sound);
-	} 
-	
+	}
 } 
