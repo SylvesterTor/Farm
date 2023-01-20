@@ -5,18 +5,29 @@ using UnityEngine;
 public class ZooManager : MonoBehaviour
 {
     public GameObject Pen;
-    public List<FriendlyAnimal> animals;
+    public GameObject animal;
     // Start is called before the first frame update
-    public List<GameObject> allPens = new List<GameObject>();
+    public List<Pen> allPens = new List<Pen>();
+    public List<Animal> allAnimals =new List<Animal>();
     void Start()
     {
-        GameObject pen1 = Instantiate(Pen, transform.position, Quaternion.identity);
-        allPens.Add(pen1);
+        Pen pen = createPen(Pen, animal);
+        allPens.Add(pen);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    Pen createPen(GameObject penToSpawn, GameObject animalToSpawn){
+        GameObject penSpawn = Instantiate(penToSpawn, transform.position, Quaternion.identity);
+        Pen PenSpawnScript = penSpawn.GetComponent<Pen>(); 
+        PenSpawnScript.spawnAnimal(animalToSpawn);
+        PenSpawnScript.spawnAnimal(animalToSpawn);
+        PenSpawnScript.spawnAnimal(animalToSpawn);
+        PenSpawnScript.spawnAnimal(animalToSpawn);
+        return penToSpawn.GetComponent<Pen>();
     }
 }

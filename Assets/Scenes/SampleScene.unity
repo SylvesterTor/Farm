@@ -236,9 +236,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2756aea6a7bef4a46bbaceaf2e9e2f31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pen: {fileID: 0}
-  animals: []
+  Pen: {fileID: 5446593575827930822, guid: 0a5b8326c9a645e40b037a8db240f7f1, type: 3}
+  animal: {fileID: 6243705408216336086, guid: 99360d57e610ec24db9e4ea3305bc551, type: 3}
   allPens: []
+  allAnimals: []
 --- !u!4 &1705894339
 Transform:
   m_ObjectHideFlags: 0
