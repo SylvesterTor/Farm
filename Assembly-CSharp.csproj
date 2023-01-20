@@ -36,9 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Animal.cs" />
+     <Compile Include="Assets\Scripts\HostileAnimal.cs" />
      <Compile Include="Assets\Scripts\brah.cs" />
      <Compile Include="Assets\Scripts\FriendlyAnimal.cs" />
+     <Compile Include="Assets\Scripts\Lion.cs" />
+     <Compile Include="Assets\Scripts\Animal.cs" />
+     <Compile Include="Assets\Scripts\HostileAnimalInterface.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\chris\Desktop\Unity\2021.3.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
